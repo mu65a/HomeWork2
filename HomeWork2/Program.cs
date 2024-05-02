@@ -8,7 +8,7 @@ namespace HomeWork
             Console.WriteLine("Do you want to caluclate using the simple caluclater:");
             string reaction = Console.ReadLine().ToLower();
 
-            while (reaction == "yes")
+            while (reaction == "y")
             {
                 Console.WriteLine("Enter the first number");
                 float number1 = Convert.ToSingle(Console.ReadLine());
@@ -43,7 +43,7 @@ namespace HomeWork
 
                 Console.WriteLine("Do you want to continue?(yes/No ");
                 string calucalteagin = Console.ReadLine();
-                if (calucalteagin == "No")
+                if (calucalteagin == "n")
                 {
                     Console.WriteLine("Thank you ");
                     break;
